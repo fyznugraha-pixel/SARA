@@ -7,6 +7,17 @@ Official binary distribution & release channel for **SARA (SAP Automated Root-Ca
 - **License:** Internal / Education (Closed Source - All Rights Reserved)
 - **Latest Version:** `v1.1.2`
 
+## App Preview
+
+### Module Audit & Root-Cause Analysis (Dark Mode)
+![SARA Module Audit - Dark Mode](assets/preview_audit_dark.png)
+
+### Class Batch Audit & Bottleneck Analytics
+![SARA Class Batch Analytics](assets/preview_batch_dark.png)
+
+### Light Mode
+![SARA Module Audit - Light Mode](assets/preview_audit_light.png)
+
 ## Download & Installation
 
 1. Open the **Releases** section of this repository.
