@@ -5,12 +5,12 @@ Official binary distribution & release channel for **SARA (SAP Automated Root-Ca
 - **Developer:** Fayiz Apriwansyah Nugraha
 - **Affiliation:** Telkom University
 - **License:** Internal / Education (Closed Source - All Rights Reserved)
-- **Latest Version:** `v1.1.1`
+- **Latest Version:** `v1.1.2`
 
 ## Download & Installation
 
 1. Open the **Releases** section of this repository.
-2. Download **`SARA_Setup.exe`** from the latest release (`v1.1.1`).
+2. Download **`SARA_Setup.exe`** from the latest release (`v1.1.2`).
 3. Run `SARA_Setup.exe` on Windows 10/11 64-bit (installs per-user without Admin/UAC and without requiring Python).
 4. Optional: verify file integrity against [`SHA256SUMS.txt`](SHA256SUMS.txt).
 

@@ -1,5 +1,12 @@
 # Changelog - SARA (SAP Automated Root-Cause Analyzer)
 
+## v1.1.2 (2026-11-24)
+
+- **Compact, Decluttered UI:** Consolidated header controls into the `Settings` dropdown (Theme, Language, Pin, Check SAP, SAP Session), folded `CoCd / Plant / FY`, Evidence Screenshot, and Demo Mode into collapsible `Advanced Options`, moved secondary actions into the `More` menu, and added outside-click auto-dismiss across all dropdown menus.
+- **AI Module Extract & Direct Module Management:** Shortened AI Import footer actions (`Review & Next` / `Cancel`) for HiDPI screens, replaced `Paste Clipboard` with a vector icon + tooltip, and added a direct confirmation-protected Delete button for custom modules on the `Modules & PDF` tab.
+- **Safer Auto-Fix Confirmation Dialog:** Separated `Error Fixes (WRONG)` (checked by default) from `Incomplete Steps (MISSING)` (unchecked by default with an explicit warning) so unfinished student steps are never advanced unintentionally, with live selection counts and disabled Run state at 0 selected.
+- **Cross-Module Accuracy Hardening (`FI/CO`, `MM/SCM`, `SD`, `PP`, `HCM/HR`, `SE16N`):** Refused partial `SE16N` filter execution + added `SELFIELDS` PageDown scrolling, added `GuiTree` reader & 3-decimal `MMBE` stock quantity parsing without false positives, filtered classic ABAP list headers, detected `VKM1` & FI/CO/HR authorization errors, cleared stale `MB51` user filters, and fixed contextual `customer_id`/`vendor_id` mapping on AI JSON import.
+
 ## v1.1.1 (2026-11-24)
 
 - **Responsive Audit Stop Button:** Added Stop (`Hentikan`) button on the Module Audit tab and instant mid-student cancellation in Class Batch with automatic SAP Easy Access (`/n`) recovery.
