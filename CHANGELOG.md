@@ -1,5 +1,13 @@
 # Changelog - SARA (SAP Automated Root-Cause Analyzer)
 
+## v1.1.3 (2026-11-25)
+
+- **Exercise Scope Filter (Module Audit):** Added `All` / `From` / `Only` Exercise filtering (`Semua` / `Mulai dari` / `Khusus`) under `Advanced Options` for Built-in Module 1, Module 2, and Custom JSON/PDF modules, skipping SAP T-Code queries outside the chosen Exercise while recalculating scores and WA summaries accurately.
+- **Per-Task Manual Score Rubrics:** Configure custom point weights per step (weight `0` excludes steps from grading, Root-Cause chains, and Class Top Bottlenecks), choose `Proportional (0-100)` vs `Direct Sum`, adjust passing thresholds and `WARN` partial credit, and re-score live without re-querying SAP.
+- **Class Batch Detail Modal, Canvas Heatmap & Resume:** Double-click any student row or heatmap row to inspect step-by-step details (`Prev/Next`, status filters, Copy WA, PDF Slip, Load to Audit Tab); pixel-aligned scrollable Canvas Heatmap with hover tooltips; smart multi-row Excel roster header detection; automatic transient SAP UI error retry; and `Resume Remaining` batch recovery on disconnect.
+- **Module 2 AR Accuracy & Generalized Bottlenecks:** Tolerant `Street` address comparison (`Platz`/`Pl` abbreviations and punctuation without cross-student false positives) plus generalized Class Top Bottleneck labels (`CSTOMERXX`).
+- **License Activation System:** Added Ed25519-signed License Key verification with 1-device lock, 24-hour offline grace, and live bilingual (`ID / EN`) activation & status dialog.
+
 ## v1.1.2 (2026-11-24)
 
 - **Compact, Decluttered UI:** Consolidated header controls into the `Settings` dropdown (Theme, Language, Pin, Check SAP, SAP Session), folded `CoCd / Plant / FY`, Evidence Screenshot, and Demo Mode into collapsible `Advanced Options`, moved secondary actions into the `More` menu, and added outside-click auto-dismiss across all dropdown menus.
